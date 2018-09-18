@@ -4,38 +4,65 @@
             <meta charset="utf-8"/>
         <style>
 body {
-    font-family: liberation sans;
+    font-family: arial, sans-serif;
+    font-size: 10pt;
+    margin: 0;
+    color: #4e4e4e;
+    
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 10pt;
 }
 li {
     display: inline;
+    margin: 5px;
+}
+#top-nav {
+    margin-top: 1.5%;
 }
 #left-top {
     float: left;
+    padding-left: 2%;
 }
 #right-top {
     float: right;
+    padding-right: 2%;
 }
 #logo {
     clear: both;
 }
 #left-bottom {
     float: left;
+    padding-left: 2%;
 }
 #right-bottom {
     float: right;
+    padding-right: 2%;
 }
 #bottom-nav {
-    background-color: #f4f4f4;
+    background-color: #efefef;
     overflow: hidden;
+    bottom:0px;
+    font-size:10pt;
+    height:35px;
+    position:absolute;
+    width:100%
+    
+    
 }
 input[type=text] {
-    width: 50%;
+    width: 40%;
+    border-radius: 0;
+    padding: 10px 7px;
+    
 } 
+#content {
+    text-align: center;
+    padding-top: 15%;
+}
         </style>
     <title>Google</title>    
     </head>
@@ -55,6 +82,7 @@ input[type=text] {
             </div>
         </ul>
         </div>
+        <div id="content">
         <div id="logo">
 <img src= "google-logo.png" alt= "google logo" width= "272" height="92"> 
         </div>  
@@ -65,6 +93,7 @@ input[type=text] {
                 <input type="submit" value="Google Search">
                 <input type="submit" value="I'm Feeling Lucky">
             </form>
+        </div>
         </div>
         <div id="bottom-nav">
         <ul>
